@@ -1,4 +1,6 @@
 #ESP32
 
-Projeto desenvolvido com ESP32 e com broker UBIDOTS, desenvolvendo assim um programa IoT com possibilidade de enviar temperatura e humidade para o broker, desligar um LED a partir do broker, controlar o brilho de outro LED a partir do broker e criar uma referencia de temperatura para a qual um terceiro LED acende caso a temperatura registada esteja acima dessa referencia e apaga se estiver abaixo da referencia. 
-histerysis implementada (mesmo conceito usado nos aquecedores de casa convencionais ) 
+IOT Project developed with ESP32 and UBIDOTS broker using ArduinoIDE
+The program registers the temperature and humidity levels via the ESP32 board and proper sensors and sends it to the broker. 
+Via the broker(UBIDOTS) we can turn off or on a LED attached to the ESP32, control the brightness of another one. And accordingly to the temperature levels the broker sends a signal to turn off or on the third LED attached to the ESP32.
+Histerysis implemented(same concept used in AC)
