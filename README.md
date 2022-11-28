@@ -1,4 +1,4 @@
-#ESP32
+# ESP32
 
 IOT Project developed with ESP32 and UBIDOTS broker using ArduinoIDE
 The program registers the temperature and humidity levels via the ESP32 board and proper sensors and sends it to the broker. 
